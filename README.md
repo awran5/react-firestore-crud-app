@@ -6,13 +6,14 @@ A simple CRUD (`Create`, `Read`, `Update`, `Delete`) React App using Hooks, Cont
 
 ### Instructions
 
-Download or clone the repo:
+- Download or clone the repo:
 
 ```
 https://github.com/awran5/react-firestore-crud-app.git
 ```
 
-Create a new [firebase](https://console.firebase.google.com/) project or use your existing one and enable **Cloud Firestore** database then copy/paste your project `configuration` inside `.env.local` file.
+- Create a new [firebase](https://console.firebase.google.com/) project or use your existing one and enable **Cloud Firestore** database.
+- Create a new `.env.local` file inside `src` folder and copy/paste your firebase project `configuration`.
 
 ```
   REACT_APP_FIREBASE_API_KEY = xxxxxxxxxxxxxxxxxxxxxx
