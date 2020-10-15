@@ -18,7 +18,14 @@ const Layout = ({ children }) => {
                 A simple CRUD (Create, Read, Update, and Delete) operations App using React Hooks, Context API and
                 Firebase.
               </Card.Text>
-              <Button variant="dark">Github</Button>
+              <a
+                href="https://github.com/awran5/react-firestore-crud-app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-dark"
+              >
+                Github
+              </a>
             </Card.Body>
           </Card>
           {children}
